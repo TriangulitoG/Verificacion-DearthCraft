@@ -1,5 +1,5 @@
 # Verificacion-DearthCraft
-Esta es la verificacion de DearthCraft https://discord.gg/dearthcraft
+Esta es la verificacion con button de DearthCraft https://discord.gg/dearthcraft
 
 # Instalacion
 ```text
