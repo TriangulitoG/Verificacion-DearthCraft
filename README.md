@@ -2,6 +2,10 @@
 Esta es la verificacion de DearthCraft https://discord.gg/dearthcraft
 
 # Instalacion
+```text
+node .
+```
+
 Edita el archivo `config.json` pon el *TOKEN* y donde quieres que envie el enbed
 
 ```json
@@ -11,11 +15,10 @@ Edita el archivo `config.json` pon el *TOKEN* y donde quieres que envie el enbed
   "verificationchannel": "Chanel ID"
 }
 ```
-Iniciar bot
+# Iniciar bot
 
 ```text
 npm i
-node .
 ```
 ```text
 node .
