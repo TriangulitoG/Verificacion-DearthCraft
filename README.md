@@ -8,7 +8,7 @@ https://github.com/TriangulitoG/Verificacion-DearthCraft.git
 
 Edita el archivo 'config.json' pon el *TOKEN* y donde quieres que envíe el enbed
 
-```json
+```js
 {
   "token": "Tu token",
 
@@ -27,10 +27,26 @@ node .
 
 En `events/interactionCreate.js` puedes editar los roles que añade cuando te verifica
 
-```json
+```js
 
 if(!interaction.member.roles.cache.has("ID Principal del rol")) {
  interaction.member.roles.add("Otras IDs"),
  interaction.member.roles.add("Otras ID")
+module.exports = {
+  name: 'interactionCreate',
+  async execute(interaction) {
+    if(interaction.isButton()){
+      if(interaction.customId === 'verification') {
+        if(!interaction.member.roles.cache.has("ID Principal del rol")) {
+          interaction.member.roles.add("Otras IDs"),
+          interaction.member.roles.add("Otras ID")
+          interaction.reply({ content: "Has sido verificado correctamente!", ephemeral: true })
+        } else {
+          interaction.reply({ content: "¡Ya estás verificado!", ephemeral: true })
+        };
+      };
+   };
+  },
+};
 
 ```
