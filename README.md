@@ -28,10 +28,6 @@ node .
 En `events/interactionCreate.js` puedes editar los roles que añade cuando te verifica
 
 ```js
-
-if(!interaction.member.roles.cache.has("ID Principal del rol")) {
- interaction.member.roles.add("Otras IDs"),
- interaction.member.roles.add("Otras ID")
 module.exports = {
   name: 'interactionCreate',
   async execute(interaction) {
