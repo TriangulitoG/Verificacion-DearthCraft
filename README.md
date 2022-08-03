@@ -6,7 +6,7 @@ Esta es la verificacion de DearthCraft https://discord.gg/dearthcraft
 https://github.com/TriangulitoG/Verificacion-DearthCraft.git
 ```
 
-Edita el archivo `config.json` pon el *TOKEN* y donde quieres que envie el enbed
+Edita el archivo 'config.json' pon el *TOKEN* y donde quieres que envíe el enbed
 
 ```json
 {
@@ -25,9 +25,10 @@ node .
 ```
 # Editar roles
 
-En `events/interactionCreate.js` puedes editar los roles que añade quendo te verifica
+En `events/interactionCreate.js` puedes editar los roles que añade cuando te verifica
 
 ```json
+
 module.exports = {
   name: 'interactionCreate',
   async execute(interaction) {
@@ -44,4 +45,5 @@ module.exports = {
    };
   },
 };
+
 ```
