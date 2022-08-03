@@ -17,3 +17,6 @@ Iniciar bot
 npm i
 node .
 ```
+```text
+node .
+```
