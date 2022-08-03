@@ -3,7 +3,7 @@ Esta es la verificacion de DearthCraft https://discord.gg/dearthcraft
 
 # Instalacion
 ```text
-node .
+https://github.com/TriangulitoG/Verificacion-DearthCraft.git
 ```
 
 Edita el archivo `config.json` pon el *TOKEN* y donde quieres que envie el enbed
